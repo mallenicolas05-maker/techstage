@@ -1,0 +1,220 @@
+{
+  "evidence": [
+    {
+      "id": "cc624155-1310-433b-a2dd-7232e289daed",
+      "evidence": "https://en.wikipedia.org/wiki/Panasonic"
+    },
+    {
+      "id": "56723535-c2a5-4ef9-9c8d-9157a1c90bf0",
+      "evidence": "https://en.wikipedia.org/wiki/Rivian"
+    },
+    {
+      "id": "65e9453b-abb1-46c0-bf9f-8beb63a2e541",
+      "evidence": "https://en.wikipedia.org/wiki/Roblox"
+    },
+    {
+      "id": "3ae4f86b-0dde-4f35-b354-64583eac16b4",
+      "evidence": "https://en.wikipedia.org/wiki/Scale_AI"
+    },
+    {
+      "id": "3118c272-d0c0-4f8f-bbdb-de206378cf78",
+      "evidence": "https://en.wikipedia.org/wiki/Shopify"
+    },
+    {
+      "id": "e115ec67-eae0-4ca8-8a90-ebb4a1aabc9e",
+      "evidence": "https://en.wikipedia.org/wiki/Sony"
+    },
+    {
+      "id": "5283bab3-aa5b-4ba2-9873-b2779f73fd8c",
+      "evidence": "https://en.wikipedia.org/wiki/SpaceX"
+    },
+    {
+      "id": "bc97477b-bb6b-4244-927c-a8f60380c117",
+      "evidence": "https://en.wikipedia.org/wiki/Waymo"
+    },
+    {
+      "id": "5e4ade46-3856-4ba9-8262-5b24df8aa6b8",
+      "evidence": "https://en.wikipedia.org/wiki/Auto_Shanghai"
+    },
+    {
+      "id": "b044d3ba-5738-44b0-a8bf-cf78d6141fa2",
+      "evidence": "https://en.wikipedia.org/wiki/Computex"
+    },
+    {
+      "id": "71459ae7-dc69-4e59-a72e-2dec41bbfc55",
+      "evidence": "https://en.wikipedia.org/wiki/Farnborough_International_Airshow"
+    }
+  ],
+  "unmatchedRows": [
+    {
+      "id": "93ca05da-8854-4722-952d-08930fed4c47",
+      "entity_type": "company",
+      "name": "Okta"
+    },
+    {
+      "id": "295d09d5-9222-4fe9-a7d8-b566f8151fa8",
+      "entity_type": "company",
+      "name": "Oracle"
+    },
+    {
+      "id": "6c9c03da-671e-485f-af33-73bcde1485dd",
+      "entity_type": "company",
+      "name": "Palantir Technologies"
+    },
+    {
+      "id": "0b29e60c-84f8-4602-9c8d-04f268022ac5",
+      "entity_type": "company",
+      "name": "Perplexity"
+    },
+    {
+      "id": "843f9c57-7930-409f-91f8-98c79aba5ea6",
+      "entity_type": "company",
+      "name": "Pinterest"
+    },
+    {
+      "id": "846f5610-ef80-4ab3-9570-a2eae5026e2f",
+      "entity_type": "company",
+      "name": "Plaid"
+    },
+    {
+      "id": "7c6505b5-0b22-4f98-bcac-336c33677704",
+      "entity_type": "company",
+      "name": "Ramp"
+    },
+    {
+      "id": "77ce93e6-5ecf-47ed-b3b1-d51dfc4d3c53",
+      "entity_type": "company",
+      "name": "Redis"
+    },
+    {
+      "id": "21747a95-f95f-4e0e-866c-465aeb5b3077",
+      "entity_type": "company",
+      "name": "Rippling"
+    },
+    {
+      "id": "aafcec8d-8b7a-4cec-ac21-4d151aaf092d",
+      "entity_type": "company",
+      "name": "Runway"
+    },
+    {
+      "id": "99a9bd7e-4557-492e-b3e7-c9c61079c2e3",
+      "entity_type": "company",
+      "name": "Samsara"
+    },
+    {
+      "id": "e54041e4-cd44-4949-8374-f2ba40920d0c",
+      "entity_type": "company",
+      "name": "ServiceNow"
+    },
+    {
+      "id": "b8551fdf-3c0a-4c3f-9aa8-b362e5cbb61a",
+      "entity_type": "company",
+      "name": "Siemens"
+    },
+    {
+      "id": "f5ac8216-1c6f-41f2-86cd-bb3d40369f48",
+      "entity_type": "company",
+      "name": "Snap"
+    },
+    {
+      "id": "5533eebe-430e-40f0-bf22-6119006705ca",
+      "entity_type": "company",
+      "name": "Snowflake"
+    },
+    {
+      "id": "d1764651-dd2d-4ebd-92ba-88f8792fa3c4",
+      "entity_type": "company",
+      "name": "Snyk"
+    },
+    {
+      "id": "45231bc8-176d-4a6b-8f28-72ac8cde172c",
+      "entity_type": "company",
+      "name": "Spotify"
+    },
+    {
+      "id": "5dbe3916-f31b-4811-970b-e186a324302e",
+      "entity_type": "company",
+      "name": "Stanford"
+    },
+    {
+      "id": "08591551-d23a-43ba-9422-e982385d7210",
+      "entity_type": "company",
+      "name": "Stanford Graduate Business School"
+    },
+    {
+      "id": "5e47e614-2222-4256-931d-9d435eb5340e",
+      "entity_type": "company",
+      "name": "TED Conferences"
+    },
+    {
+      "id": "06080489-ee97-444c-a616-04223c378a8f",
+      "entity_type": "company",
+      "name": "Tencent"
+    },
+    {
+      "id": "896edb08-897d-404a-97ff-97f2e84c3d02",
+      "entity_type": "company",
+      "name": "Tesla Energy"
+    },
+    {
+      "id": "18ae08e4-2b6c-4505-9530-4326c2154e17",
+      "entity_type": "company",
+      "name": "Toast"
+    },
+    {
+      "id": "69aeda31-3155-4aed-aaa8-d541c652cdd0",
+      "entity_type": "company",
+      "name": "Twilio"
+    },
+    {
+      "id": "2a78c483-d025-4797-97fc-ad445f85d75d",
+      "entity_type": "company",
+      "name": "Uber"
+    },
+    {
+      "id": "fd94bdef-90bc-4d56-bc23-a8e3e0357932",
+      "entity_type": "company",
+      "name": "Vast Space"
+    },
+    {
+      "id": "13326a8e-773a-4749-9498-2f7111599c4c",
+      "entity_type": "company",
+      "name": "Vercel"
+    },
+    {
+      "id": "158a9f37-e031-476f-abe6-1b64fd462c40",
+      "entity_type": "company",
+      "name": "Wiz"
+    },
+    {
+      "id": "519a4fe1-5511-48d8-9a89-0a73dba05503",
+      "entity_type": "company",
+      "name": "Workday"
+    },
+    {
+      "id": "d4ec74b0-a214-4083-b61f-e7eb4a1bb41b",
+      "entity_type": "event",
+      "name": "Black Hat USA"
+    },
+    {
+      "id": "af9f213d-f3ca-462a-a3da-3103098a31b2",
+      "entity_type": "event",
+      "name": "Cisco Live"
+    },
+    {
+      "id": "c9c69c5f-b735-4f03-a7bf-476982054573",
+      "entity_type": "event",
+      "name": "Databricks Data + AI Summit"
+    },
+    {
+      "id": "1f5bbc8c-4f96-4c09-a9b2-91b28991f8d5",
+      "entity_type": "event",
+      "name": "Figma Config"
+    },
+    {
+      "id": "125281cf-5a96-4d3b-a08f-9ce59e6f9d17",
+      "entity_type": "event",
+      "name": "Fortune Brainstorm Tech"
+    }
+  ]
+}

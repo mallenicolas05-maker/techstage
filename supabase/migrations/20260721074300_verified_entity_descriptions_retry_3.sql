@@ -1,0 +1,7 @@
+update public.companies set description='Tencent is chinese conglomerate and holding company.' where id='06080489-ee97-444c-a616-04223c378a8f'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Tesla Energy is american solar energy generation and battery energy storage company.' where id='896edb08-897d-404a-97ff-97f2e84c3d02'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Twilio is uS cloud communications company.' where id='69aeda31-3155-4aed-aaa8-d541c652cdd0'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Vercel is american cloud application company.' where id='13326a8e-773a-4749-9498-2f7111599c4c'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.events set description='FOSDEM is annual software engineering conference.' where id='5e7bed11-7194-4326-b842-9f03365a00e0'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.events set description='Game Developers Conference is annual video game developer conference.' where id='473837b8-3926-4712-8a4b-1cf35dd3a090'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.events set description='Google I/O is annual developer conference held by Google.' where id='379fef47-5d53-4708-af09-021366219cb8'::uuid and status='published' and nullif(trim(description),'') is null;

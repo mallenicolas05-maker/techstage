@@ -1,0 +1,48 @@
+{
+  "project": "techstage-dev",
+  "budgetUsd": 0,
+  "executed": true,
+  "assets": [
+    {
+      "id": "2e8ae914-4137-47f6-bcd8-2556211bf74e",
+      "entityType": "speaker",
+      "entitySlug": "ilya-sutskever",
+      "provider": "wikimedia",
+      "sourceUrl": "https://commons.wikimedia.org/w/thumb.php?f=Democratizing+Deep+Learning+with+Nervana+and+Google+Brain+%2815105407149%29+%28cropped%29.jpg&width=1200",
+      "sourcePageUrl": "https://commons.wikimedia.org/wiki/File:Democratizing_Deep_Learning_with_Nervana_and_Google_Brain_(15105407149)_(cropped).jpg",
+      "photographer": "Steve Jurvetson from Los Altos, USA",
+      "attributionText": "Democratizing Deep Learning with ‪Nervana and ‪Google Brain‬ ‬",
+      "licenseLabel": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0",
+      "altText": "Ilya Sutskever portrait",
+      "searchQuery": "Ilya Sutskever portrait",
+      "sourceStoragePath": "entity/speaker/ilya-sutskever/source.jpg",
+      "checksumSha256": "6e292ce90fc7fbfa91bd33bcf8f48ce167e2e081221108a0476d5b382df8ad42",
+      "width": 1200,
+      "height": 2243,
+      "sourceByteSize": 244170,
+      "variants": [
+        {
+          "variant": "speaker-256",
+          "format": "webp",
+          "contentType": "image/webp",
+          "width": 256,
+          "height": 256,
+          "byteSize": 7820,
+          "checksumSha256": "f62221d28774287ac8fe5c7849ba9b364d9fca5a1162319393254e3edd0b00dd",
+          "storagePath": "entity/speaker/ilya-sutskever/speaker-256.webp"
+        },
+        {
+          "variant": "speaker-512",
+          "format": "webp",
+          "contentType": "image/webp",
+          "width": 512,
+          "height": 512,
+          "byteSize": 21722,
+          "checksumSha256": "d16740f5ea4640ee0a4d78ce52231dc09a654d51851383bddb901218fa81fa35",
+          "storagePath": "entity/speaker/ilya-sutskever/speaker-512.webp"
+        }
+      ]
+    }
+  ]
+}

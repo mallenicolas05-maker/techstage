@@ -1,0 +1,11 @@
+update public.companies set description='Panasonic is japanese multinational electronics corporation.' where id='cc624155-1310-433b-a2dd-7232e289daed'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Rivian is american electric vehicle company.' where id='56723535-c2a5-4ef9-9c8d-9157a1c90bf0'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Roblox is multiplayer game creation platform.' where id='65e9453b-abb1-46c0-bf9f-8beb63a2e541'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Scale AI is american data annotation company.' where id='3ae4f86b-0dde-4f35-b354-64583eac16b4'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Shopify is canadian e-commerce company.' where id='3118c272-d0c0-4f8f-bbdb-de206378cf78'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Sony is japanese multinational corporation.' where id='e115ec67-eae0-4ca8-8a90-ebb4a1aabc9e'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='SpaceX is american spaceflight and AI company.' where id='5283bab3-aa5b-4ba2-9873-b2779f73fd8c'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Waymo is autonomous car technology company.' where id='bc97477b-bb6b-4244-927c-a8f60380c117'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.events set description='Auto Shanghai is chinese biennial automobile show.' where id='5e4ade46-3856-4ba9-8262-5b24df8aa6b8'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.events set description='COMPUTEX is taiwanese annual computer technology trade fair.' where id='b044d3ba-5738-44b0-a8bf-cf78d6141fa2'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.events set description='Farnborough International Airshow is uK airshow and arms trade exhibition.' where id='71459ae7-dc69-4e59-a72e-2dec41bbfc55'::uuid and status='published' and nullif(trim(description),'') is null;

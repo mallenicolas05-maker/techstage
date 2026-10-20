@@ -1,0 +1,620 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Switzer-Variable";
+  src: url("/fonts/techstage-brief/Switzer-Variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Tabular-Variable";
+  src: url("/fonts/techstage-brief/Tabular-Variable.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trispace";
+  src: url("/fonts/trispace/Trispace-Regular.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Trispace";
+  src: url("/fonts/trispace/Trispace-Medium.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+/* ————————————————————————————————————————————————
+   TECHSTAGE tokens — ported from the Polaris design
+   language in Design_system_fable (read-only reference).
+   Hard corners, drafting paper, serif editorial voice,
+   mono metadata. One steering accent (azure), one
+   annotating accent (fuchsia). Light theme only.
+———————————————————————————————————————————————— */
+
+@theme {
+  /* ——— Paper + ink (Polaris shared palette) ——— */
+  --color-paper: #ffffff;
+  --color-paper-gray: #f5f5f6;
+  --color-paper-warm: #f7f5f1;
+  --color-ink: #17181c;
+  --color-ink-soft: #4b4e57;
+  --color-ink-faint: #8b8e98;
+  --color-line: #e5e5e9;
+  --color-line-warm: #e9e5dc;
+
+  /* ——— Steering accent: azure ——— */
+  --color-azure: #2b5cff;
+  --color-azure-deep: #1e3fb8;
+  --color-azure-soft: #dbe4ff;
+  --color-azure-wash: #eef2ff;
+
+  /* ——— Annotating accent: hot fuchsia ——— */
+  --color-fuchsia-hot: #ef2d7f;
+  --color-fuchsia-deep: #c81d67;
+  --color-fuchsia-soft: #fbd9e8;
+  --color-fuchsia-wash: #fdeff5;
+
+  /* ——— Semantic states (used sparingly; admin + statuses) ——— */
+  --color-live: #0e9f6e;
+  --color-live-soft: #d2f0e4;
+  --color-warn: #b45309;
+  --color-warn-soft: #fdeccf;
+
+  /* ——— Type families ——— */
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Newsreader", ui-serif, Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, "SF Mono", monospace;
+
+  --animate-ticker: ticker 22s linear infinite;
+
+  @keyframes ticker {
+    from {
+      transform: translateX(0);
+    }
+    to {
+      transform: translateX(-50%);
+    }
+  }
+  @keyframes pulse-soft {
+    0%,
+    100% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.45;
+    }
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-paper text-ink font-sans antialiased;
+  font-feature-settings: "cv11", "ss01";
+}
+
+/* Approved entity imagery shares one restrained editorial treatment. Company
+   marks get the exact white circular medallion; source photos stay untouched. */
+.entity-image__media {
+  animation: entity-image-reveal 260ms ease-out both;
+  transition: filter 180ms ease, transform 240ms ease;
+}
+.entity-image--company .entity-image__media {
+  padding: 11%;
+}
+.entity-image--editorial::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: color-mix(in srgb, var(--ts-acc) 9%, transparent);
+  mix-blend-mode: multiply;
+}
+.entity-image--editorial .entity-image__media {
+  filter: saturate(.8) contrast(1.02);
+}
+.group:hover .entity-image__media {
+  transform: scale(1.015);
+}
+@keyframes entity-image-reveal {
+  from { opacity: 0; transform: scale(1.02); }
+  to { opacity: 1; transform: scale(1); }
+}
+@media (prefers-reduced-motion: reduce) {
+  .entity-image__media { animation: none; transition: none; }
+  .group:hover .entity-image__media { transform: none; }
+}
+
+/* ——— Accent scope (fixed TECHSTAGE colorway) ———
+   Everything derives from the two accents, exactly as
+   Polaris scoped its colorways. */
+:root {
+  --ts-acc: var(--color-azure);
+  --ts-acc-deep: var(--color-azure-deep);
+  --ts-acc-soft: var(--color-azure-soft);
+  --ts-acc2: var(--color-fuchsia-hot);
+  --ts-acc2-deep: var(--color-fuchsia-deep);
+  --ts-acc-45: color-mix(in srgb, var(--ts-acc) 45%, transparent);
+  --ts-acc-15: color-mix(in srgb, var(--ts-acc) 15%, transparent);
+  --ts-grid: color-mix(in srgb, var(--ts-acc) 9%, transparent);
+  --ts-mark-a: color-mix(in srgb, var(--ts-acc) 24%, transparent);
+  --ts-mark-b: color-mix(in srgb, var(--ts-acc2) 30%, transparent);
+  /* Opaque chip background for pills sitting on textured paper —
+     same tint as --ts-acc-15 but mixed over paper so gridlines
+     can't show through the chip. */
+  --ts-acc-15-solid: color-mix(in srgb, var(--ts-acc) 15%, var(--color-paper));
+}
+
+[data-theme="grape"] { --ts-acc: #6d3df5; --ts-acc-deep: #4b22bd; --ts-acc-soft: #e6dbff; --ts-acc2: #bd5cff; --ts-acc2-deep: #7e2fc0; }
+[data-theme="lemon-lime"] { --ts-acc: #168f5b; --ts-acc-deep: #0b6540; --ts-acc-soft: #d8f1e4; --ts-acc2: #d2a900; --ts-acc2-deep: #8c7200; }
+[data-theme="diet-cola"] { --ts-acc: #30343b; --ts-acc-deep: #17181c; --ts-acc-soft: #dfe2e6; --ts-acc2: #8e97a4; --ts-acc2-deep: #59616c; }
+[data-theme="forest"] { --ts-acc: #135c3d; --ts-acc-deep: #0a3e28; --ts-acc-soft: #d9e9de; --ts-acc2: #7b8f3b; --ts-acc2-deep: #526226; }
+[data-theme="deep-sea"] { --ts-acc: #075c91; --ts-acc-deep: #063d60; --ts-acc-soft: #d6ecf5; --ts-acc2: #1d9ac4; --ts-acc2-deep: #116b89; }
+[data-theme="monochrome"] { --ts-acc: #17181c; --ts-acc-deep: #000; --ts-acc-soft: #e1e1e3; --ts-acc2: #72747c; --ts-acc2-deep: #484a50; }
+[data-theme="creamsicle"] { --ts-acc: #d95b18; --ts-acc-deep: #9c3d0c; --ts-acc-soft: #ffe1c7; --ts-acc2: #ef9b47; --ts-acc2-deep: #ae641d; }
+[data-theme="espresso"] { --ts-acc: #6a4028; --ts-acc-deep: #462719; --ts-acc-soft: #eadccf; --ts-acc2: #b77945; --ts-acc2-deep: #7c4d29; }
+[data-theme="matcha"] { --ts-acc: #52734d; --ts-acc-deep: #345132; --ts-acc-soft: #dfe8d7; --ts-acc2: #99a66d; --ts-acc2-deep: #667142; }
+[data-theme="black-cherry"] { --ts-acc: #781f3b; --ts-acc-deep: #4b1024; --ts-acc-soft: #efd9e1; --ts-acc2: #382d35; --ts-acc2-deep: #1f191d; }
+[data-theme="strawberries-cream"] { --ts-acc: #cc365d; --ts-acc-deep: #94203f; --ts-acc-soft: #f7dce3; --ts-acc2: #ef7e98; --ts-acc2-deep: #b44661; }
+
+/* Drafting paper: fine accent grid + neutral cross ticks (Polaris .pol-paper) */
+.ts-paper {
+  background-image:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='56' height='56'%3E%3Cpath d='M28 22v12M22 28h12' stroke='%2317181C' stroke-opacity='0.10' stroke-width='1.2'/%3E%3C/svg%3E"),
+    linear-gradient(to right, var(--ts-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--ts-grid) 1px, transparent 1px);
+  background-size: 56px 56px, 28px 28px, 28px 28px;
+}
+
+/* Full-height drafting rails around the constrained editorial column. */
+.ts-rails {
+  background-image:
+    linear-gradient(to right, var(--ts-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--ts-grid) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
+.ts-rails > .editorial-column { background: var(--color-paper); }
+
+/* Dot grid (Callisto-derived, kept from Polaris cards) */
+.dot-grid {
+  background-image: radial-gradient(rgba(23, 24, 28, 0.13) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* Dashed seam with corner diamonds */
+.seam {
+  position: relative;
+}
+.seam::before,
+.seam::after {
+  content: "◇";
+  position: absolute;
+  font-size: 10px;
+  color: var(--ts-acc);
+  opacity: 0.7;
+  line-height: 1;
+}
+.seam::before {
+  top: -5px;
+  left: -5px;
+}
+.seam::after {
+  bottom: -5px;
+  right: -5px;
+}
+
+/* Highlighter marks — a steers, b annotates */
+.mark-a {
+  background: linear-gradient(to top, var(--ts-mark-a) 0 62%, transparent 62%);
+  padding: 0 0.15em;
+}
+.mark-b {
+  background: linear-gradient(to top, var(--ts-mark-b) 0 62%, transparent 62%);
+  padding: 0 0.15em;
+}
+
+/* Sweep underline that grows from the left */
+.link-sweep {
+  background-image: linear-gradient(currentColor, currentColor);
+  background-size: 0% 1.5px;
+  background-repeat: no-repeat;
+  background-position: 0 100%;
+  transition: background-size 0.3s ease;
+}
+.link-sweep:hover,
+.group:hover .link-sweep {
+  background-size: 100% 1.5px;
+}
+
+/* Hard offset shadow on hover (Polaris feature cards) */
+.hard-hover {
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease,
+    border-color 0.3s ease;
+}
+.hard-hover:hover {
+  transform: translateY(-4px);
+  box-shadow: 7px 7px 0 0 var(--ts-acc-soft);
+}
+
+.glass-panel {
+  background: color-mix(in srgb, white 76%, transparent);
+  border: 1px solid color-mix(in srgb, var(--ts-acc) 28%, rgba(23, 24, 28, 0.18));
+  box-shadow: 0 24px 70px rgba(23, 24, 28, 0.18);
+  backdrop-filter: blur(18px) saturate(125%);
+}
+
+.theme-sheet-enter { animation: theme-sheet-enter 360ms cubic-bezier(.2,.8,.2,1) both; }
+@keyframes theme-sheet-enter { from { transform: translateY(100%); opacity: .6; } to { transform: translateY(0); opacity: 1; } }
+
+.brief-pop-enter { animation: brief-pop-enter 300ms cubic-bezier(.2,.8,.2,1) both; }
+@keyframes brief-pop-enter { from { transform: translateY(10px) scale(.98); opacity: 0; } to { transform: translateY(0) scale(1); opacity: 1; } }
+.brief-artifact-enter { animation: brief-artifact-enter 260ms ease-out both; }
+@keyframes brief-artifact-enter { from { transform: translateY(8px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+.brief-page-enter { animation: brief-page-enter 200ms ease-out both; }
+@keyframes brief-page-enter { from { transform: translateX(8px); opacity: 0; } to { transform: translateX(0); opacity: 1; } }
+.brief-stamp { animation: brief-stamp 220ms cubic-bezier(.2,.8,.2,1) both; }
+@keyframes brief-stamp { from { transform: scale(.94); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+
+.ai-brief-surface {
+  font-family: "Switzer-Variable", Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 350;
+}
+.ai-brief-surface .brief-title {
+  font-family: "Tabular-Variable", Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 500;
+  letter-spacing: -0.025em;
+}
+.ai-brief-surface .brief-control {
+  font-family: "Tabular-Variable", Inter, ui-sans-serif, system-ui, sans-serif;
+  font-weight: 520;
+}
+.ai-brief-surface .brief-meta {
+  font-family: "Tabular-Variable", "IBM Plex Mono", ui-monospace, monospace;
+  font-weight: 440;
+}
+
+/* Stage Notes is a deliberately scoped editorial surface. Its measurements
+   mirror the verified report rhythm without changing the product UI outside
+   `.digest-surface`. */
+.digest-surface {
+  --digest-measure: 696px;
+  --digest-issue-title: 32px;
+  --digest-issue-title-lh: 38.4px;
+  --digest-panel-title: 28px;
+  --digest-panel-title-lh: 33.6px;
+  --digest-body: 20px;
+  --digest-body-lh: 30px;
+  --digest-deck: 16px;
+  --digest-deck-lh: 22.4px;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+.digest-meta {
+  font-family: Trispace, "Courier New", ui-monospace, monospace;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19.6px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.digest-question-label {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  font-family: Trispace, "Courier New", ui-monospace, monospace;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+}
+
+.digest-question-label > span {
+  color: var(--ts-acc);
+}
+
+.digest-body {
+  font-size: var(--digest-body);
+  font-weight: 400;
+  line-height: var(--digest-body-lh);
+}
+
+.digest-link {
+  text-decoration-line: underline;
+  text-decoration-color: var(--ts-acc);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 3px;
+  transition: color 180ms ease, text-decoration-color 180ms ease;
+}
+
+.digest-link:hover {
+  color: var(--ts-acc-deep);
+  text-decoration-color: var(--ts-acc2);
+}
+
+.digest-through-line {
+  position: relative;
+}
+
+.digest-through-line::before,
+.digest-through-line::after {
+  content: "";
+  position: absolute;
+  top: -5rem;
+  bottom: -5rem;
+  width: max(20px, calc((100vw - var(--digest-measure)) / 2 - 24px));
+  opacity: 0.04;
+  pointer-events: none;
+  background-image: radial-gradient(var(--color-ink) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+.digest-through-line::before { right: calc(100% + 24px); }
+.digest-through-line::after { left: calc(100% + 24px); }
+
+@media (max-width: 480px) {
+  .digest-surface {
+    --digest-measure: calc(100% - 40px);
+    --digest-issue-title: 26px;
+    --digest-issue-title-lh: 31px;
+    --digest-panel-title: 22px;
+    --digest-panel-title-lh: 27px;
+    --digest-body: 17px;
+    --digest-body-lh: 26px;
+    --digest-deck: 15px;
+    --digest-deck-lh: 21px;
+  }
+
+  .digest-meta {
+    font-size: 12px;
+    line-height: 17px;
+  }
+
+  .digest-question-label {
+    font-size: 12px;
+    line-height: 16px;
+  }
+
+  .digest-through-line::before,
+  .digest-through-line::after {
+    display: none;
+  }
+}
+.brief-density-compact .brief-insight {
+  padding-block: .55rem;
+}
+.brief-density-compact .brief-insight h3 {
+  font-size: .9rem;
+  line-height: 1.2;
+}
+.brief-density-compact .brief-insight li {
+  font-size: .69rem;
+  line-height: 1.35;
+}
+.brief-density-compact .brief-insight li:nth-child(n+2) {
+  display: none;
+}
+
+.scan-line { position: relative; overflow: hidden; }
+.scan-line::after { content: ""; position: absolute; inset: 0; background: linear-gradient(180deg, transparent, var(--ts-acc-15), transparent); animation: scan 1.25s ease-in-out infinite; }
+@keyframes scan { from { transform: translateY(-100%); } to { transform: translateY(100%); } }
+
+.ide-scroll { scrollbar-width: thin; scrollbar-color: color-mix(in srgb, var(--ts-acc) 35%, transparent) transparent; }
+.ide-scroll::-webkit-scrollbar { width: 5px; }
+.ide-scroll::-webkit-scrollbar-thumb { background: color-mix(in srgb, var(--ts-acc) 35%, transparent); }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { scroll-behavior: auto !important; animation-duration: 1ms !important; animation-iteration-count: 1 !important; transition-duration: 1ms !important; }
+}
+
+/* ——— Media-product extensions (new for TECHSTAGE) ——— */
+
+/* Generative thumbnail surface: paper + accent scan bars.
+   No external images anywhere in the shell. */
+.thumb {
+  position: relative;
+  overflow: hidden;
+  background:
+    linear-gradient(to right, var(--ts-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--ts-grid) 1px, transparent 1px),
+    var(--color-paper-gray);
+  background-size:
+    28px 28px,
+    28px 28px,
+    auto;
+}
+.thumb::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    0deg,
+    rgba(23, 24, 28, 0.03) 0 2px,
+    transparent 2px 4px
+  );
+}
+
+/* Watch-progress bar */
+.progress-track {
+  height: 3px;
+  background: rgba(23, 24, 28, 0.12);
+}
+.progress-fill {
+  height: 100%;
+  background: var(--ts-acc);
+}
+
+/* Locked premium module: content is real markup, visually obscured */
+.locked-veil {
+  filter: blur(7px);
+  opacity: 0.55;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Live indicator */
+.live-dot {
+  width: 7px;
+  height: 7px;
+  background: var(--color-live);
+  animation: pulse-soft 1.6s ease-in-out infinite;
+}
+
+/* Skeleton shimmer (restrained: flat pulse, no gradient sweep) */
+.skeleton {
+  background: rgba(23, 24, 28, 0.08);
+  animation: pulse-soft 1.6s ease-in-out infinite;
+}
+
+/* Horizontal rail: scroll-snap, hidden scrollbar */
+.rail {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x proximity;
+  scrollbar-width: none;
+}
+.rail::-webkit-scrollbar {
+  display: none;
+}
+.rail > * {
+  scroll-snap-align: start;
+  flex-shrink: 0;
+}
+
+/* Mobile safe areas */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+/* Transcript active segment */
+.segment-active {
+  background: var(--ts-acc-15);
+  border-left: 2px solid var(--ts-acc);
+}
+
+/* Transcript segment being swept by the AI-summary reader */
+.segment-reading {
+  background: var(--ts-mark-a);
+  border-left: 2px solid var(--ts-acc);
+}
+
+/* Local paper backing so text stays legible on gridded surfaces
+   (.ts-paper / .ts-rails) without moving anything. */
+.text-backer {
+  background: var(--color-paper);
+  box-decoration-break: clone;
+  -webkit-box-decoration-break: clone;
+  padding: 0 0.12em;
+}
+
+/* Circular dashed spinner (AI-summary reading state) */
+.spinner-dashed {
+  width: 1.25rem;
+  height: 1.25rem;
+  border: 2px dashed var(--ts-acc);
+  border-radius: 9999px;
+  animation: spin-slow 1.2s linear infinite;
+}
+@keyframes spin-slow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Dotted field behind grouped cards: dots show between and beside
+   cards, cards themselves stay opaque paper. Padding is applied
+   per-use with utilities so rails keep their own gutters. */
+.card-field {
+  background-image: radial-gradient(rgba(23, 24, 28, 0.13) 1px, transparent 1px);
+  background-size: 18px 18px;
+}
+
+/* Technical interaction frame: the FAQ-weight dash remains quiet while
+   short solid corner brackets give hoverable surfaces a precise focus cue. */
+.tech-frame {
+  --tech-frame-corner: 15px;
+  position: relative;
+  border-color: var(--color-line);
+  transition: border-color 180ms ease, background-color 180ms ease;
+}
+.tech-frame::before {
+  content: "";
+  position: absolute;
+  z-index: 20;
+  inset: -1px;
+  pointer-events: none;
+  opacity: 0;
+  background:
+    linear-gradient(var(--ts-acc), var(--ts-acc)) left top / var(--tech-frame-corner) 2px no-repeat,
+    linear-gradient(var(--ts-acc), var(--ts-acc)) left top / 2px var(--tech-frame-corner) no-repeat,
+    linear-gradient(var(--ts-acc), var(--ts-acc)) right top / var(--tech-frame-corner) 2px no-repeat,
+    linear-gradient(var(--ts-acc), var(--ts-acc)) right top / 2px var(--tech-frame-corner) no-repeat,
+    linear-gradient(var(--ts-acc), var(--ts-acc)) left bottom / var(--tech-frame-corner) 2px no-repeat,
+    linear-gradient(var(--ts-acc), var(--ts-acc)) left bottom / 2px var(--tech-frame-corner) no-repeat,
+    linear-gradient(var(--ts-acc), var(--ts-acc)) right bottom / var(--tech-frame-corner) 2px no-repeat,
+    linear-gradient(var(--ts-acc), var(--ts-acc)) right bottom / 2px var(--tech-frame-corner) no-repeat;
+  transition: opacity 180ms ease;
+}
+.tech-frame:hover,
+.tech-frame:focus-visible,
+.tech-frame[data-active="true"] {
+  border-style: dashed;
+  border-color: var(--ts-acc-45);
+}
+.tech-frame:hover::before,
+.tech-frame:focus-visible::before,
+.tech-frame[data-active="true"]::before {
+  opacity: 1;
+}
+
+.tech-frame-always {
+  border-style: dashed;
+  border-color: var(--ts-acc-45);
+}
+.tech-frame-always::before { opacity: 1; }
+.tech-frame-compact { --tech-frame-corner: 8px; }
+
+.mobile-menu-enter {
+  transform-origin: top right;
+  animation: mobile-menu-enter 240ms cubic-bezier(.2,.8,.2,1) both;
+}
+@keyframes mobile-menu-enter {
+  from { transform: translateY(-10px) scaleY(.96); opacity: 0; }
+  to { transform: translateY(0) scaleY(1); opacity: 1; }
+}
+
+::selection {
+  background: var(--color-azure-soft);
+}
+
+@media print {
+  body * { visibility: hidden !important; }
+  .ai-brief-modal,
+  .ai-brief-modal * { visibility: visible !important; }
+  .ai-brief-modal { position: absolute !important; inset: 0 !important; display: block !important; background: white !important; }
+  .ai-brief-modal > div { max-height: none !important; max-width: none !important; overflow: visible !important; border: 0 !important; box-shadow: none !important; }
+  .brief-print-root { overflow: visible !important; }
+  .brief-print-root nav,
+  .brief-print-root .brief-interactive,
+  .brief-print-root > div:nth-child(2) { display: none !important; }
+  .brief-print-root .brief-print-all { display: block !important; }
+  .brief-print-root .ide-scroll { overflow: visible !important; }
+  .brief-print-page { break-after: page; page-break-after: always; }
+  .brief-print-page:last-child { break-after: auto; page-break-after: auto; }
+}

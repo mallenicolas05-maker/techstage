@@ -1,0 +1,9 @@
+update public.companies set description='GitLab is open-source Git software package.' where id='7fad5f38-3b13-4cf2-bd10-731c2d25f09d'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Google Workspace is productivity and collaboration software.' where id='7566fa88-3c03-4d6b-b01b-ff12a87daf81'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='HubSpot is american software company.' where id='954cca58-f25d-41bf-bc59-90fe72adfc5c'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Intuit is american financial software company.' where id='551162fb-0922-4c4f-85dc-1675847085b2'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Lenovo is chinese multinational technology company.' where id='79c638bd-1b1c-42d3-b3cb-5d6c1c131391'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='LG Electronics is south Korean multinational electronics company.' where id='a3b2b038-8c9f-4e5e-9f2e-9cb3e444ff0e'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Lyft is american ride-sharing company.' where id='0502c291-43bc-4795-874a-b88ad030976f'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Mistral AI is french artificial intelligence company.' where id='b4ed99bb-50cf-478e-bb44-fd77c18cabaf'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='MongoDB is cross-platform document-oriented database.' where id='26658322-400f-4392-ada8-5af261e027e4'::uuid and status='published' and nullif(trim(description),'') is null;

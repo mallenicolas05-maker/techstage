@@ -1,0 +1,971 @@
+[
+  {
+    "appearanceSlug": "nvidia-gtc-2026-keynote",
+    "title": "GTC 2026 Keynote",
+    "description": "NVIDIA's official GTC 2026 keynote session with founder and CEO Jensen Huang.",
+    "occurredAt": "2026-03-16T18:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.nvidia.com/gtc/session-catalog/sessions/gtc26-s81595/",
+    "sourceProvider": "conference-site",
+    "channelName": "NVIDIA GTC",
+    "speakerSlugs": [
+      "jensen-huang"
+    ],
+    "companySlugs": [
+      "nvidia"
+    ],
+    "eventSlug": "nvidia-gtc-2026",
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "robotics",
+      "energy"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "google-io-2026-agentic-gemini-era",
+    "title": "Welcome to the agentic Gemini era",
+    "description": "Official edited transcript of Sundar Pichai's opening remarks at Google I/O 2026.",
+    "occurredAt": "2026-05-19T17:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://blog.google/innovation-and-ai/sundar-pichai-io-2026/",
+    "sourceProvider": "company-site",
+    "channelName": "Google",
+    "speakerSlugs": [
+      "sundar-pichai"
+    ],
+    "companySlugs": [
+      "google"
+    ],
+    "eventSlug": "google-io-2026",
+    "topicSlugs": [
+      "ai-agents",
+      "multimodal-ai",
+      "inference",
+      "developer-tools"
+    ],
+    "transcriptHint": true
+  },
+  {
+    "appearanceSlug": "microsoft-build-2026-keynote",
+    "title": "Microsoft Build 2026 Keynote",
+    "description": "Microsoft's official Build 2026 keynote coverage featuring Satya Nadella.",
+    "occurredAt": "2026-06-02T16:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://news.microsoft.com/build-2026/",
+    "sourceProvider": "conference-site",
+    "channelName": "Microsoft",
+    "speakerSlugs": [
+      "satya-nadella"
+    ],
+    "companySlugs": [
+      "microsoft"
+    ],
+    "eventSlug": "microsoft-build-2026",
+    "topicSlugs": [
+      "ai-agents",
+      "developer-tools",
+      "data-infrastructure",
+      "quantum"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "apple-wwdc-2026-keynote",
+    "title": "WWDC26 Keynote",
+    "description": "Apple's official WWDC26 keynote video.",
+    "occurredAt": "2026-06-08T17:00:00Z",
+    "durationSeconds": 4560,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://developer.apple.com/videos/play/wwdc2026/101/",
+    "sourceProvider": "company-site",
+    "channelName": "Apple Developer",
+    "speakerSlugs": [
+      "tim-cook"
+    ],
+    "companySlugs": [
+      "apple"
+    ],
+    "eventSlug": "apple-wwdc-2026",
+    "topicSlugs": [
+      "ai-agents",
+      "developer-tools",
+      "multimodal-ai",
+      "ai-safety"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "sundar-pichai-stanford-commencement-2026",
+    "title": "Sundar Pichai's 2026 Stanford Commencement Address",
+    "description": "Official transcript of Sundar Pichai's Stanford University commencement address.",
+    "occurredAt": "2026-06-14T17:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://blog.google/company-news/inside-google/message-ceo/stanford-commencement-speech-2026/",
+    "sourceProvider": "company-site",
+    "channelName": "Google",
+    "speakerSlugs": [
+      "sundar-pichai"
+    ],
+    "companySlugs": [
+      "google"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "ai-safety"
+    ],
+    "transcriptHint": true
+  },
+  {
+    "appearanceSlug": "nvidia-gtc-dc-2025-keynote",
+    "title": "NVIDIA GTC Washington, D.C. Keynote",
+    "description": "NVIDIA's official on-demand page for Jensen Huang's October 2025 Washington, D.C. keynote.",
+    "occurredAt": "2025-10-28T16:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.nvidia.com/gtc/dc/keynote/",
+    "sourceProvider": "company-site",
+    "channelName": "NVIDIA",
+    "speakerSlugs": [
+      "jensen-huang"
+    ],
+    "companySlugs": [
+      "nvidia"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "robotics",
+      "quantum"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "nvidia-gtc-2025-keynote",
+    "title": "GTC 2025 Keynote",
+    "description": "NVIDIA's official on-demand GTC 2025 keynote with founder and CEO Jensen Huang.",
+    "occurredAt": "2025-03-18T17:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.nvidia.com/en-us/on-demand/session/gtc25-s72484/",
+    "sourceProvider": "company-site",
+    "channelName": "NVIDIA GTC",
+    "speakerSlugs": [
+      "jensen-huang"
+    ],
+    "companySlugs": [
+      "nvidia"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "robotics"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "google-io-2025-from-research-to-reality",
+    "title": "Google I/O 2025: From research to reality",
+    "description": "Official edited transcript of Sundar Pichai's Google I/O 2025 opening remarks.",
+    "occurredAt": "2025-05-20T17:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/io-2025-keynote/",
+    "sourceProvider": "company-site",
+    "channelName": "Google",
+    "speakerSlugs": [
+      "sundar-pichai"
+    ],
+    "companySlugs": [
+      "google"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "multimodal-ai",
+      "inference"
+    ],
+    "transcriptHint": true
+  },
+  {
+    "appearanceSlug": "microsoft-build-2025-satya-nadella-opening-keynote",
+    "title": "Microsoft Build 2025: Satya Nadella Opening Keynote",
+    "description": "Microsoft's official Build 2025 keynote page and recording index.",
+    "occurredAt": "2025-05-19T16:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://news.microsoft.com/build-2025/",
+    "sourceProvider": "conference-site",
+    "channelName": "Microsoft",
+    "speakerSlugs": [
+      "satya-nadella"
+    ],
+    "companySlugs": [
+      "microsoft"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "developer-tools",
+      "data-infrastructure"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "apple-wwdc-2025-keynote",
+    "title": "WWDC25 Keynote",
+    "description": "Apple's official WWDC25 keynote video.",
+    "occurredAt": "2025-06-09T17:00:00Z",
+    "durationSeconds": 5520,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://developer.apple.com/videos/play/wwdc2025/101/",
+    "sourceProvider": "company-site",
+    "channelName": "Apple Developer",
+    "speakerSlugs": [
+      "tim-cook"
+    ],
+    "companySlugs": [
+      "apple"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "developer-tools",
+      "ai-agents",
+      "chips"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "openai-devday-2025-opening-keynote",
+    "title": "OpenAI DevDay 2025 Opening Keynote",
+    "description": "OpenAI's official DevDay program for its opening keynote with Sam Altman.",
+    "occurredAt": "2025-10-06T16:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://openai.com/devday/",
+    "sourceProvider": "conference-site",
+    "channelName": "OpenAI",
+    "speakerSlugs": [
+      "sam-altman"
+    ],
+    "companySlugs": [
+      "openai"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "developer-tools",
+      "multimodal-ai"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "wef-2026-day-after-agi",
+    "title": "The day after AGI",
+    "description": "World Economic Forum conversation with Dario Amodei and Demis Hassabis about what advanced AI could mean for humanity.",
+    "occurredAt": "2026-01-21T10:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.weforum.org/podcasts/radio-davos/episodes/ai-agi-dario-amodei-demis-hassabis/",
+    "sourceProvider": "conference-site",
+    "channelName": "World Economic Forum",
+    "speakerSlugs": [
+      "dario-amodei",
+      "demis-hassabis"
+    ],
+    "companySlugs": [
+      "anthropic",
+      "google"
+    ],
+    "eventSlug": "wef-davos-2026",
+    "topicSlugs": [
+      "ai-agents",
+      "ai-safety",
+      "biotechnology"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "meta-connect-2025-keynote",
+    "title": "Meta Connect 2025 Keynote",
+    "description": "Meta's official Connect 2025 keynote recap featuring Mark Zuckerberg and the company's AI-glasses announcements.",
+    "occurredAt": "2025-09-17T17:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://about.fb.com/news/2025/09/meta-connect-2025/",
+    "sourceProvider": "company-site",
+    "channelName": "Meta",
+    "speakerSlugs": [
+      "mark-zuckerberg"
+    ],
+    "companySlugs": [
+      "meta"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "multimodal-ai",
+      "ai-agents",
+      "open-source-models"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "amd-ces-2026-ai-everywhere",
+    "title": "AI Everywhere, For Everyone",
+    "description": "AMD's official CES 2026 keynote program with chair and CEO Lisa Su.",
+    "occurredAt": "2026-01-05T18:30:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.amd.com/en/corporate/events/ces.html",
+    "sourceProvider": "conference-site",
+    "channelName": "AMD",
+    "speakerSlugs": [
+      "lisa-su"
+    ],
+    "companySlugs": [
+      "amd"
+    ],
+    "eventSlug": "ces-2026",
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "ai-agents"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "qualcomm-computex-2025-keynote",
+    "title": "Qualcomm COMPUTEX 2025 Keynote",
+    "description": "Qualcomm's official announcement of president and CEO Cristiano Amon's COMPUTEX keynote.",
+    "occurredAt": "2025-05-19T06:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.qualcomm.com/news/releases/2025/05/qualcomm-president-and-ceo-cristiano-amon-to-deliver-keynote-spe",
+    "sourceProvider": "conference-site",
+    "channelName": "Qualcomm",
+    "speakerSlugs": [
+      "cristiano-amon"
+    ],
+    "companySlugs": [
+      "qualcomm"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "ai-agents"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "snapdragon-summit-2025-ecosystem-of-you",
+    "title": "CEO Keynote: The Ecosystem of You",
+    "description": "Qualcomm's official Snapdragon Summit 2025 recap of Cristiano Amon's opening keynote.",
+    "occurredAt": "2025-09-24T20:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.qualcomm.com/snapdragon/news/everything-you-missed-at-snapdragon-summit-2025",
+    "sourceProvider": "company-site",
+    "channelName": "Qualcomm Snapdragon",
+    "speakerSlugs": [
+      "cristiano-amon"
+    ],
+    "companySlugs": [
+      "qualcomm"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "multimodal-ai"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "dreamforce-2025-opening-keynote",
+    "title": "Dreamforce 2025 Opening Keynote",
+    "description": "Salesforce's official Dreamforce keynote program featuring Marc Benioff.",
+    "occurredAt": "2025-10-14T17:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.salesforce.com/dreamforce/keynote-post/",
+    "sourceProvider": "conference-site",
+    "channelName": "Salesforce",
+    "speakerSlugs": [
+      "marc-benioff"
+    ],
+    "companySlugs": [
+      "salesforce"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "data-infrastructure"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "dreamforce-2025-sundar-pichai-marc-benioff",
+    "title": "A Conversation with Sundar Pichai and Marc Benioff",
+    "description": "Salesforce's official Dreamforce program for a conversation between Sundar Pichai and Marc Benioff.",
+    "occurredAt": "2025-10-16T17:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.salesforce.com/dreamforce/keynote-post/",
+    "sourceProvider": "conference-site",
+    "channelName": "Salesforce",
+    "speakerSlugs": [
+      "sundar-pichai",
+      "marc-benioff"
+    ],
+    "companySlugs": [
+      "google",
+      "salesforce"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "data-infrastructure",
+      "multimodal-ai"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "stripe-sessions-2025-future-of-commerce",
+    "title": "Opening keynote: The future of commerce",
+    "description": "Stripe's official Sessions 2025 opening keynote with Patrick and John Collison.",
+    "occurredAt": "2025-05-06T16:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://stripe.com/sessions/2025/opening-keynote",
+    "sourceProvider": "conference-site",
+    "channelName": "Stripe",
+    "speakerSlugs": [
+      "patrick-collison"
+    ],
+    "companySlugs": [
+      "stripe"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "developer-tools",
+      "data-infrastructure",
+      "ai-agents"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "stripe-sessions-2025-mark-zuckerberg",
+    "title": "A conversation with Mark Zuckerberg",
+    "description": "Stripe's official Sessions conversation between Mark Zuckerberg and John Collison.",
+    "occurredAt": "2025-05-07T16:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://stripe.com/sessions/2025/a-conversation-with-mark-zuckerberg",
+    "sourceProvider": "conference-site",
+    "channelName": "Stripe",
+    "speakerSlugs": [
+      "mark-zuckerberg"
+    ],
+    "companySlugs": [
+      "meta",
+      "stripe"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "open-source-models",
+      "data-infrastructure"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "stripe-sessions-2025-jony-ive",
+    "title": "A conversation with Sir Jony Ive KBE",
+    "description": "Stripe's official Sessions conversation between designer Jony Ive and Patrick Collison.",
+    "occurredAt": "2025-05-07T20:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://stripe.com/sessions/2025/a-conversation-with-sir-jony-ive",
+    "sourceProvider": "conference-site",
+    "channelName": "Stripe",
+    "speakerSlugs": [
+      "patrick-collison"
+    ],
+    "companySlugs": [
+      "stripe"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "developer-tools",
+      "ai-agents"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "stripe-sessions-2025-collison-ama",
+    "title": "AMA with Patrick and John Collison",
+    "description": "Stripe's official Sessions 2025 ask-me-anything session with its co-founders.",
+    "occurredAt": "2025-05-08T18:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://stripe.com/sessions/2025/ama-with-patrick-and-john-collison",
+    "sourceProvider": "conference-site",
+    "channelName": "Stripe",
+    "speakerSlugs": [
+      "patrick-collison"
+    ],
+    "companySlugs": [
+      "stripe"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "developer-tools",
+      "data-infrastructure"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "google-io-2026-beyond-the-keynote",
+    "title": "Beyond the Keynote",
+    "description": "Google's official I/O 2026 Dialogues recap featuring Sundar Pichai in conversation about the announcements and their broader context.",
+    "occurredAt": "2026-05-20T17:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+    "sourceProvider": "company-site",
+    "channelName": "Google",
+    "speakerSlugs": [
+      "sundar-pichai"
+    ],
+    "companySlugs": [
+      "google"
+    ],
+    "eventSlug": "google-io-2026",
+    "topicSlugs": [
+      "ai-agents",
+      "multimodal-ai",
+      "developer-tools"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "google-io-2026-dialogues-science",
+    "title": "Google I/O 2026 Dialogues: Science",
+    "description": "Google's official I/O Dialogues recap featuring Demis Hassabis on AI and scientific discovery.",
+    "occurredAt": "2026-05-20T19:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/io-2026-dialogues-recap/",
+    "sourceProvider": "company-site",
+    "channelName": "Google",
+    "speakerSlugs": [
+      "demis-hassabis"
+    ],
+    "companySlugs": [
+      "google"
+    ],
+    "eventSlug": "google-io-2026",
+    "topicSlugs": [
+      "ai-agents",
+      "ai-safety",
+      "biotechnology"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "microsoft-ai-tour-sydney-2026-keynote",
+    "title": "Microsoft AI Tour Keynote: Sydney",
+    "description": "Microsoft's official coverage of Satya Nadella's Sydney AI Tour keynote.",
+    "occurredAt": "2026-04-23T00:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://news.microsoft.com/satya-nadella-australia-visit-2026/",
+    "sourceProvider": "conference-site",
+    "channelName": "Microsoft",
+    "speakerSlugs": [
+      "satya-nadella"
+    ],
+    "companySlugs": [
+      "microsoft"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "data-infrastructure",
+      "developer-tools"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "ibm-think-2025-enterprise-ai-value",
+    "title": "Unlock the full value of enterprise AI",
+    "description": "IBM's official Think 2025 keynote video with chairman and CEO Arvind Krishna.",
+    "occurredAt": "2025-05-06T14:30:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.ibm.com/think/videos/think-keynotes/enterprise-ai-value",
+    "sourceProvider": "conference-site",
+    "channelName": "IBM Think",
+    "speakerSlugs": [
+      "arvind-krishna"
+    ],
+    "companySlugs": [
+      "ibm"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "data-infrastructure",
+      "quantum"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "satya-nadella-new-age-ai-new-delhi",
+    "title": "Leading in the New Age of AI — New Delhi",
+    "description": "Microsoft's official coverage of Satya Nadella's December 2025 India visit and New Delhi address.",
+    "occurredAt": "2025-12-10T05:30:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://news.microsoft.com/india-visit-december-2025/",
+    "sourceProvider": "company-site",
+    "channelName": "Microsoft India",
+    "speakerSlugs": [
+      "satya-nadella"
+    ],
+    "companySlugs": [
+      "microsoft"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "data-infrastructure",
+      "developer-tools"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "satya-nadella-new-age-ai-mumbai",
+    "title": "Leading in the New Age of AI — Mumbai",
+    "description": "Microsoft's official coverage of Satya Nadella's December 2025 India visit and Mumbai address.",
+    "occurredAt": "2025-12-12T05:30:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://news.microsoft.com/india-visit-december-2025/",
+    "sourceProvider": "company-site",
+    "channelName": "Microsoft India",
+    "speakerSlugs": [
+      "satya-nadella"
+    ],
+    "companySlugs": [
+      "microsoft"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "data-infrastructure",
+      "developer-tools"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "microsoft-ai-tour-amsterdam-2025-keynote",
+    "title": "Microsoft AI Tour Keynote: Amsterdam",
+    "description": "Microsoft's official executive speech index for Satya Nadella's AI Tour keynote in Amsterdam.",
+    "occurredAt": "2025-06-15T10:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://news.microsoft.com/source/leadership/?selected_tab=2&speeches_selected_speaker=satya-nadella",
+    "sourceProvider": "conference-site",
+    "channelName": "Microsoft",
+    "speakerSlugs": [
+      "satya-nadella"
+    ],
+    "companySlugs": [
+      "microsoft"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "data-infrastructure",
+      "developer-tools"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "microsoft-50th-anniversary-copilot-event",
+    "title": "Microsoft 50th Anniversary and Copilot Event",
+    "description": "Microsoft's official executive speech index for the company's 50th anniversary event featuring Satya Nadella.",
+    "occurredAt": "2025-04-04T16:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://news.microsoft.com/source/leadership/?selected_tab=2&speeches_selected_speaker=satya-nadella",
+    "sourceProvider": "company-site",
+    "channelName": "Microsoft",
+    "speakerSlugs": [
+      "satya-nadella"
+    ],
+    "companySlugs": [
+      "microsoft"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "developer-tools"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "openai-forum-sam-altman-future-of-ai",
+    "title": "Sam Altman on Building the Future of AI",
+    "description": "OpenAI Forum's official event page for a virtual conversation with Sam Altman.",
+    "occurredAt": "2026-04-06T17:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://forum.openai.com/en/public/events/virtual-event-sam-altman-on-building-the-future-of-ai-j0h1igxg1q",
+    "sourceProvider": "company-site",
+    "channelName": "OpenAI Forum",
+    "speakerSlugs": [
+      "sam-altman"
+    ],
+    "companySlugs": [
+      "openai"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "ai-safety",
+      "developer-tools"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "ted-2025-sam-altman-ai-agents-superintelligence",
+    "title": "OpenAI's Sam Altman talks ChatGPT, AI agents and superintelligence",
+    "description": "TED's official recording and transcript of Sam Altman's live TED2025 conversation with Chris Anderson.",
+    "occurredAt": "2025-04-11T17:00:00Z",
+    "durationSeconds": 2820,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.ted.com/talks/sam_altman_openai_s_sam_altman_talks_chatgpt_ai_agents_and_superintelligence_live_at_ted2025",
+    "sourceProvider": "conference-site",
+    "channelName": "TED",
+    "speakerSlugs": [
+      "sam-altman"
+    ],
+    "companySlugs": [
+      "openai"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "ai-safety",
+      "multimodal-ai"
+    ],
+    "transcriptHint": true
+  },
+  {
+    "appearanceSlug": "wef-2025-how-close-is-powerful-ai",
+    "title": "Very powerful AI is close. How close?",
+    "description": "World Economic Forum session featuring Dario Amodei and Andrew Ng alongside other AI researchers.",
+    "occurredAt": "2025-01-22T10:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.weforum.org/videos/davos-day-3-am25/",
+    "sourceProvider": "conference-site",
+    "channelName": "World Economic Forum",
+    "speakerSlugs": [
+      "dario-amodei",
+      "andrew-ng"
+    ],
+    "companySlugs": [
+      "anthropic"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "ai-safety",
+      "open-source-models"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "nvidia-computex-2025-keynote",
+    "title": "NVIDIA CEO Jensen Huang Keynote at COMPUTEX 2025",
+    "description": "NVIDIA's official on-demand page for Jensen Huang's COMPUTEX 2025 keynote.",
+    "occurredAt": "2025-05-19T03:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.nvidia.com/en-us/on-demand/session/computex25-keynote/",
+    "sourceProvider": "conference-site",
+    "channelName": "NVIDIA",
+    "speakerSlugs": [
+      "jensen-huang"
+    ],
+    "companySlugs": [
+      "nvidia"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "robotics"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "nvidia-ces-2025-keynote",
+    "title": "NVIDIA CEO Jensen Huang Keynote at CES 2025",
+    "description": "NVIDIA's official on-demand page for Jensen Huang's CES 2025 keynote.",
+    "occurredAt": "2025-01-07T02:30:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.nvidia.com/en-us/on-demand/session/ces25-keynote/",
+    "sourceProvider": "conference-site",
+    "channelName": "NVIDIA",
+    "speakerSlugs": [
+      "jensen-huang"
+    ],
+    "companySlugs": [
+      "nvidia"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "robotics"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "nvidia-gtc-paris-vivatech-2025-keynote",
+    "title": "NVIDIA GTC Paris Keynote at VivaTech 2025",
+    "description": "NVIDIA's official GTC Paris keynote page featuring Jensen Huang at VivaTech.",
+    "occurredAt": "2025-06-11T09:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.nvidia.com/en-eu/gtc/keynote/",
+    "sourceProvider": "conference-site",
+    "channelName": "NVIDIA GTC",
+    "speakerSlugs": [
+      "jensen-huang"
+    ],
+    "companySlugs": [
+      "nvidia"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "robotics",
+      "ai-agents"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "nvidia-gtc-taipei-computex-2026-keynote",
+    "title": "NVIDIA GTC Taipei at COMPUTEX 2026 Keynote",
+    "description": "NVIDIA's official coverage of Jensen Huang's GTC Taipei keynote at COMPUTEX 2026.",
+    "occurredAt": "2026-06-01T03:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-gtc-taipei-computex-2026-news/",
+    "sourceProvider": "conference-site",
+    "channelName": "NVIDIA",
+    "speakerSlugs": [
+      "jensen-huang"
+    ],
+    "companySlugs": [
+      "nvidia"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "robotics",
+      "ai-agents"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "amd-advancing-ai-2025-keynote",
+    "title": "AMD Advancing AI 2025 Keynote",
+    "description": "AMD's official keynote page for Advancing AI 2025 with chair and CEO Lisa Su.",
+    "occurredAt": "2025-06-12T16:30:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.amd.com/en/corporate/events/advancing-ai/2025/keynote-2025.html",
+    "sourceProvider": "company-site",
+    "channelName": "AMD",
+    "speakerSlugs": [
+      "lisa-su"
+    ],
+    "companySlugs": [
+      "amd"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "ai-agents"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "sam-altman-amd-advancing-ai-2025",
+    "title": "Sam Altman at AMD Advancing AI 2025",
+    "description": "AMD's official event page listing Sam Altman among the featured speakers at Advancing AI 2025.",
+    "occurredAt": "2025-06-12T18:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://www.amd.com/en/corporate/events/advancing-ai/2025/advancing-ai-2025.html",
+    "sourceProvider": "company-site",
+    "channelName": "AMD",
+    "speakerSlugs": [
+      "sam-altman"
+    ],
+    "companySlugs": [
+      "openai",
+      "amd"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "chips",
+      "inference",
+      "ai-agents"
+    ],
+    "transcriptHint": false
+  },
+  {
+    "appearanceSlug": "microsoft-ai-tour-madrid-2026-plenary",
+    "title": "Microsoft AI Tour Madrid 2026 Plenary",
+    "description": "Microsoft's official coverage of its Madrid AI Tour plenary featuring Satya Nadella.",
+    "occurredAt": "2026-02-26T09:00:00Z",
+    "durationSeconds": null,
+    "appearanceType": "technical-talk",
+    "sourceUrl": "https://news.microsoft.com/source/emea/features/inteligencia-artificial-y-soberania-digital-protagonistas-del-microsoft-ai-tour-madrid/?lang=es",
+    "sourceProvider": "conference-site",
+    "channelName": "Microsoft",
+    "speakerSlugs": [
+      "satya-nadella"
+    ],
+    "companySlugs": [
+      "microsoft"
+    ],
+    "eventSlug": null,
+    "topicSlugs": [
+      "ai-agents",
+      "data-infrastructure",
+      "ai-safety"
+    ],
+    "transcriptHint": false
+  }
+]

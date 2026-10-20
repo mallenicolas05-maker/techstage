@@ -1,0 +1,226 @@
+{
+  "evidence": [
+    {
+      "id": "4297cc0b-75b0-4915-a612-c8076a5658e3",
+      "evidence": "https://en.wikipedia.org/wiki/SIGGRAPH"
+    },
+    {
+      "id": "c932f84d-2441-4428-b0f1-8992178830c2",
+      "evidence": "https://en.wikipedia.org/wiki/Ali_Ghodsi"
+    },
+    {
+      "id": "c4fe0144-bfe4-4fba-bb95-159532e90a22",
+      "evidence": "https://en.wikipedia.org/wiki/Ben_Silbermann"
+    },
+    {
+      "id": "16a4517f-e11f-4e5b-aeb4-13cb1abab77b",
+      "evidence": "https://en.wikipedia.org/wiki/Bill_McDermott"
+    },
+    {
+      "id": "ec2aad25-7312-4ef7-a9b3-568fc1448c26",
+      "evidence": "https://en.wikipedia.org/wiki/Bret_Taylor"
+    }
+  ],
+  "unmatchedRows": [
+    {
+      "id": "5e7bed11-7194-4326-b842-9f03365a00e0",
+      "entity_type": "event",
+      "name": "FOSDEM"
+    },
+    {
+      "id": "473837b8-3926-4712-8a4b-1cf35dd3a090",
+      "entity_type": "event",
+      "name": "Game Developers Conference"
+    },
+    {
+      "id": "5d55440d-9c95-4c1c-b147-83575c403f1e",
+      "entity_type": "event",
+      "name": "GITEX Global"
+    },
+    {
+      "id": "adb088fe-63cc-4d30-9eab-e5234d9f2f36",
+      "entity_type": "event",
+      "name": "GitHub Universe"
+    },
+    {
+      "id": "379fef47-5d53-4708-af09-021366219cb8",
+      "entity_type": "event",
+      "name": "Google I/O"
+    },
+    {
+      "id": "7a502021-c916-458b-99da-c16d8536321a",
+      "entity_type": "event",
+      "name": "IFA Berlin"
+    },
+    {
+      "id": "05fd9ad0-b577-412f-a58e-b1c0780cda4f",
+      "entity_type": "event",
+      "name": "Lesbians Who Tech Summit"
+    },
+    {
+      "id": "a7507fa9-277a-42db-a29d-368480f6069b",
+      "entity_type": "event",
+      "name": "Meta Connect"
+    },
+    {
+      "id": "2c0f937e-7161-45dc-9bb0-2c77cc2f64a7",
+      "entity_type": "event",
+      "name": "Microsoft Build"
+    },
+    {
+      "id": "44f2837a-f4e9-47c8-85da-c8f6caed4449",
+      "entity_type": "event",
+      "name": "MWC Barcelona"
+    },
+    {
+      "id": "7795207d-1ea9-4380-8ea8-48ca2bbb0234",
+      "entity_type": "event",
+      "name": "NAB Show"
+    },
+    {
+      "id": "1b7114b8-9c85-4aef-9d88-e98f1b8bd208",
+      "entity_type": "event",
+      "name": "O'Reilly AI Conference"
+    },
+    {
+      "id": "677d623b-e0e0-437c-80ce-3dc602c4cd4a",
+      "entity_type": "event",
+      "name": "O'Reilly Software Architecture Conference"
+    },
+    {
+      "id": "4f38c0d1-9340-495c-a2c3-01eeb5278222",
+      "entity_type": "event",
+      "name": "Open Compute Project Global Summit"
+    },
+    {
+      "id": "ad383a3b-40a7-4aac-be2c-137d1f6fdc23",
+      "entity_type": "event",
+      "name": "Open Infrastructure Summit"
+    },
+    {
+      "id": "8be3ab7b-bf9f-406f-9f57-1b71e81edaa8",
+      "entity_type": "event",
+      "name": "Oracle CloudWorld"
+    },
+    {
+      "id": "e8f362c5-daf3-4c91-9322-b1ce1908a531",
+      "entity_type": "event",
+      "name": "Product Hunt Ship"
+    },
+    {
+      "id": "a80feeff-6d65-4603-904e-07372803a4f8",
+      "entity_type": "event",
+      "name": "Red Hat Summit"
+    },
+    {
+      "id": "424d5f97-cc9a-493c-90c8-eb4373f844d3",
+      "entity_type": "event",
+      "name": "RSA Conference"
+    },
+    {
+      "id": "29ab1224-34d2-45ef-a8e0-5b77604cc5f1",
+      "entity_type": "event",
+      "name": "RSA Conference Europe"
+    },
+    {
+      "id": "6a0d8425-9c4f-4804-8aa7-72326d54187e",
+      "entity_type": "event",
+      "name": "Viva Technology"
+    },
+    {
+      "id": "2eb9260b-2d97-4e90-86f4-795fd697bb2f",
+      "entity_type": "speaker",
+      "name": "Aaron Levie"
+    },
+    {
+      "id": "25cec621-c8fd-464f-a695-3d0b64826a80",
+      "entity_type": "speaker",
+      "name": "Aidan Gomez"
+    },
+    {
+      "id": "76bfc8cd-d63d-4bf3-bbf6-bde8ad6c230f",
+      "entity_type": "speaker",
+      "name": "Akio Toyoda"
+    },
+    {
+      "id": "53053bfd-16c9-4a9e-be21-d554a8f603d1",
+      "entity_type": "speaker",
+      "name": "Alex Cooper"
+    },
+    {
+      "id": "916484dd-62a4-4011-a140-7f927d79fa62",
+      "entity_type": "speaker",
+      "name": "Alexandr Wang"
+    },
+    {
+      "id": "7aca4f63-2508-45b7-b8f9-e9b111663e1a",
+      "entity_type": "speaker",
+      "name": "Andrew Bosworth"
+    },
+    {
+      "id": "7093d5d6-d2c7-4caf-b9e3-4940e0ac494e",
+      "entity_type": "speaker",
+      "name": "Aneel Bhusri"
+    },
+    {
+      "id": "5cef9564-986d-4b70-a5bf-91ca84ba8d59",
+      "entity_type": "speaker",
+      "name": "Anne Wojcicki"
+    },
+    {
+      "id": "7f81f89a-29ea-48a2-b1bf-3c20be35abf7",
+      "entity_type": "speaker",
+      "name": "Arash Ferdowsi"
+    },
+    {
+      "id": "dd98d750-09b6-4835-9bea-615c49c3acdb",
+      "entity_type": "speaker",
+      "name": "Arthur Mensch"
+    },
+    {
+      "id": "ed9799b7-1908-4150-b4ae-bedcdf1cabbd",
+      "entity_type": "speaker",
+      "name": "Ben Horowitz"
+    },
+    {
+      "id": "05096c8f-0508-4d58-9427-83db57c98597",
+      "entity_type": "speaker",
+      "name": "Brad Smith"
+    },
+    {
+      "id": "0e243a59-c804-41d7-bb16-8108a7a61cdc",
+      "entity_type": "speaker",
+      "name": "Brian Armstrong"
+    },
+    {
+      "id": "af715a15-c9d0-494b-8d85-476bc623595e",
+      "entity_type": "speaker",
+      "name": "Brian Sozzi"
+    },
+    {
+      "id": "0077f4f1-0dee-48bb-8637-76c1a95e8edd",
+      "entity_type": "speaker",
+      "name": "Christian Klein"
+    },
+    {
+      "id": "74bf3a40-1272-40e4-9590-2c17c3e40b10",
+      "entity_type": "speaker",
+      "name": "Chuck Robbins"
+    },
+    {
+      "id": "e6ff2cb5-247f-4c9f-b025-57be4883e327",
+      "entity_type": "speaker",
+      "name": "Clara Shih"
+    },
+    {
+      "id": "10a2d66c-aed1-4adc-ad87-c64200683dad",
+      "entity_type": "speaker",
+      "name": "Craig Federighi"
+    },
+    {
+      "id": "42597ecb-7378-408a-999d-2332d0d4bc69",
+      "entity_type": "speaker",
+      "name": "Dan Fu"
+    }
+  ]
+}

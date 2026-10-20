@@ -1,0 +1,526 @@
+{
+  "evidence": [
+    {
+      "id": "70783a2d-015e-4145-b751-04c0451e3851",
+      "evidence": "https://en.wikipedia.org/wiki/Affirm_Holdings"
+    },
+    {
+      "id": "a27522b3-46cb-46d1-8bad-460e12799e43",
+      "evidence": "https://en.wikipedia.org/wiki/Arm_Holdings"
+    },
+    {
+      "id": "6761f892-517e-435e-9bc0-a88830fcc28b",
+      "evidence": "https://en.wikipedia.org/wiki/Asana%2C_Inc."
+    },
+    {
+      "id": "b84d9544-43b3-4cb7-ba75-5b13b81465dc",
+      "evidence": "https://en.wikipedia.org/wiki/Chime_(company)"
+    },
+    {
+      "id": "0b820f99-4284-45a3-97a8-ed434df7f6df",
+      "evidence": "https://en.wikipedia.org/wiki/Elastic_NV"
+    },
+    {
+      "id": "67d72f08-c1d9-4797-8b6f-84b83f3deb15",
+      "evidence": "https://en.wikipedia.org/wiki/Figma"
+    },
+    {
+      "id": "20438ae2-35e8-444b-af22-2bfd98f55003",
+      "evidence": "https://en.wikipedia.org/wiki/HP_Inc."
+    },
+    {
+      "id": "69142cff-0be8-4c1d-b8b8-2b05ea0b04d3",
+      "evidence": "https://en.wikipedia.org/wiki/Midjourney"
+    },
+    {
+      "id": "83b3bec6-10ba-47ff-b22d-03871a04307a",
+      "evidence": "https://en.wikipedia.org/wiki/Mistral_AI"
+    },
+    {
+      "id": "93ca05da-8854-4722-952d-08930fed4c47",
+      "evidence": "https://en.wikipedia.org/wiki/Okta%2C_Inc."
+    },
+    {
+      "id": "295d09d5-9222-4fe9-a7d8-b566f8151fa8",
+      "evidence": "https://en.wikipedia.org/wiki/Oracle_Corporation"
+    },
+    {
+      "id": "6c9c03da-671e-485f-af33-73bcde1485dd",
+      "evidence": "https://en.wikipedia.org/wiki/Palantir"
+    },
+    {
+      "id": "0b29e60c-84f8-4602-9c8d-04f268022ac5",
+      "evidence": "https://en.wikipedia.org/wiki/Perplexity_AI"
+    },
+    {
+      "id": "846f5610-ef80-4ab3-9570-a2eae5026e2f",
+      "evidence": "https://en.wikipedia.org/wiki/Plaid_Inc."
+    },
+    {
+      "id": "77ce93e6-5ecf-47ed-b3b1-d51dfc4d3c53",
+      "evidence": "https://en.wikipedia.org/wiki/Redis"
+    },
+    {
+      "id": "aafcec8d-8b7a-4cec-ac21-4d151aaf092d",
+      "evidence": "https://en.wikipedia.org/wiki/Runway_(company)"
+    },
+    {
+      "id": "99a9bd7e-4557-492e-b3e7-c9c61079c2e3",
+      "evidence": "https://en.wikipedia.org/wiki/Samsara_(company)"
+    },
+    {
+      "id": "e54041e4-cd44-4949-8374-f2ba40920d0c",
+      "evidence": "https://en.wikipedia.org/wiki/ServiceNow"
+    },
+    {
+      "id": "f5ac8216-1c6f-41f2-86cd-bb3d40369f48",
+      "evidence": "https://en.wikipedia.org/wiki/Snap_Inc."
+    },
+    {
+      "id": "5533eebe-430e-40f0-bf22-6119006705ca",
+      "evidence": "https://en.wikipedia.org/wiki/Snowflake_Inc."
+    },
+    {
+      "id": "5dbe3916-f31b-4811-970b-e186a324302e",
+      "evidence": "https://en.wikipedia.org/wiki/Stanford_University"
+    },
+    {
+      "id": "08591551-d23a-43ba-9422-e982385d7210",
+      "evidence": "https://en.wikipedia.org/wiki/Stanford_Graduate_School_of_Business"
+    },
+    {
+      "id": "5e47e614-2222-4256-931d-9d435eb5340e",
+      "evidence": "https://en.wikipedia.org/wiki/TED_(conference)"
+    },
+    {
+      "id": "18ae08e4-2b6c-4505-9530-4326c2154e17",
+      "evidence": "https://en.wikipedia.org/wiki/Toast%2C_Inc."
+    },
+    {
+      "id": "2a78c483-d025-4797-97fc-ad445f85d75d",
+      "evidence": "https://en.wikipedia.org/wiki/Uber"
+    },
+    {
+      "id": "fd94bdef-90bc-4d56-bc23-a8e3e0357932",
+      "evidence": "https://en.wikipedia.org/wiki/Vast_(company)"
+    },
+    {
+      "id": "158a9f37-e031-476f-abe6-1b64fd462c40",
+      "evidence": "https://en.wikipedia.org/wiki/Wiz%2C_Inc."
+    },
+    {
+      "id": "519a4fe1-5511-48d8-9a89-0a73dba05503",
+      "evidence": "https://en.wikipedia.org/wiki/Workday%2C_Inc."
+    },
+    {
+      "id": "d4ec74b0-a214-4083-b61f-e7eb4a1bb41b",
+      "evidence": "https://en.wikipedia.org/wiki/Black_Hat_(conference)"
+    },
+    {
+      "id": "76bfc8cd-d63d-4bf3-bbf6-bde8ad6c230f",
+      "evidence": "https://en.wikipedia.org/wiki/Akio_Toyoda"
+    },
+    {
+      "id": "916484dd-62a4-4011-a140-7f927d79fa62",
+      "evidence": "https://en.wikipedia.org/wiki/Alexandr_Wang"
+    },
+    {
+      "id": "7aca4f63-2508-45b7-b8f9-e9b111663e1a",
+      "evidence": "https://en.wikipedia.org/wiki/Andrew_Bosworth"
+    },
+    {
+      "id": "7093d5d6-d2c7-4caf-b9e3-4940e0ac494e",
+      "evidence": "https://en.wikipedia.org/wiki/Aneel_Bhusri"
+    },
+    {
+      "id": "5cef9564-986d-4b70-a5bf-91ca84ba8d59",
+      "evidence": "https://en.wikipedia.org/wiki/Anne_Wojcicki"
+    },
+    {
+      "id": "7f81f89a-29ea-48a2-b1bf-3c20be35abf7",
+      "evidence": "https://en.wikipedia.org/wiki/Arash_Ferdowsi"
+    },
+    {
+      "id": "dd98d750-09b6-4835-9bea-615c49c3acdb",
+      "evidence": "https://en.wikipedia.org/wiki/Arthur_Mensch"
+    },
+    {
+      "id": "ed9799b7-1908-4150-b4ae-bedcdf1cabbd",
+      "evidence": "https://en.wikipedia.org/wiki/Ben_Horowitz"
+    },
+    {
+      "id": "05096c8f-0508-4d58-9427-83db57c98597",
+      "evidence": "https://en.wikipedia.org/wiki/Brad_Smith_(American_lawyer)"
+    },
+    {
+      "id": "74bf3a40-1272-40e4-9590-2c17c3e40b10",
+      "evidence": "https://en.wikipedia.org/wiki/Chuck_Robbins"
+    },
+    {
+      "id": "e6ff2cb5-247f-4c9f-b025-57be4883e327",
+      "evidence": "https://en.wikipedia.org/wiki/Clara_Shih"
+    },
+    {
+      "id": "10a2d66c-aed1-4adc-ad87-c64200683dad",
+      "evidence": "https://en.wikipedia.org/wiki/Craig_Federighi"
+    },
+    {
+      "id": "d811deaf-4273-4748-9f3d-b411908aeeef",
+      "evidence": "https://en.wikipedia.org/wiki/Daniel_Dines"
+    },
+    {
+      "id": "92b375b5-d543-401f-94fa-4c78ab63e08a",
+      "evidence": "https://en.wikipedia.org/wiki/Dara_Khosrowshahi"
+    },
+    {
+      "id": "82e38f80-10a4-4ce6-81cc-6b3a22500940",
+      "evidence": "https://en.wikipedia.org/wiki/David_Baszucki"
+    },
+    {
+      "id": "6db59362-f8b5-4ccd-b15d-fab6eb2857a0",
+      "evidence": "https://en.wikipedia.org/wiki/Diane_Greene"
+    },
+    {
+      "id": "e8a51146-6d55-447c-8c72-67481de5055b",
+      "evidence": "https://en.wikipedia.org/wiki/Elise_Hu"
+    },
+    {
+      "id": "281f5359-88b1-4249-a32b-397519cf094c",
+      "evidence": "https://en.wikipedia.org/wiki/Emmett_Shear"
+    },
+    {
+      "id": "4da849e6-fe85-462b-a94c-3a3bf05aaaeb",
+      "evidence": "https://en.wikipedia.org/wiki/Esther_Dyson"
+    },
+    {
+      "id": "9f1b9afc-3eea-4f88-ad8b-b328548fd9d4",
+      "evidence": "https://en.wikipedia.org/wiki/Fidji_Simo"
+    },
+    {
+      "id": "82f51059-c50b-4f5e-b8d8-680f0b5c8b2f",
+      "evidence": "https://en.wikipedia.org/wiki/Garrett_Camp"
+    },
+    {
+      "id": "53b64161-b169-49fe-9ee1-d8ca27126f9c",
+      "evidence": "https://en.wikipedia.org/wiki/Greg_Brockman"
+    },
+    {
+      "id": "f05af385-3c9a-48d8-adf1-198646d0aee2",
+      "evidence": "https://en.wikipedia.org/wiki/Gwynne_Shotwell"
+    },
+    {
+      "id": "6833cdea-7da8-4a28-9846-9abf02ace7aa",
+      "evidence": "https://en.wikipedia.org/wiki/Jen_Golbeck"
+    },
+    {
+      "id": "2b6d692b-c9fb-45a0-a90e-e4a22933f38d",
+      "evidence": "https://en.wikipedia.org/wiki/Joanna_Stern"
+    },
+    {
+      "id": "6523ff88-6a9e-4dab-9707-782ab267d7fb",
+      "evidence": "https://en.wikipedia.org/wiki/John_Collison"
+    },
+    {
+      "id": "f587d95c-4d9b-458a-b4f0-355187202c0f",
+      "evidence": "https://en.wikipedia.org/wiki/John_Giannandrea"
+    },
+    {
+      "id": "6c3ad2b7-cdc4-4e54-bc54-89d7e2693ad8",
+      "evidence": "https://en.wikipedia.org/wiki/John_Riccitiello"
+    },
+    {
+      "id": "25df2610-c783-4bad-b178-c323836a8ed2",
+      "evidence": "https://en.wikipedia.org/wiki/Kevin_Systrom"
+    },
+    {
+      "id": "41b92d98-01e3-4f36-9873-1d6665bf43f3",
+      "evidence": "https://en.wikipedia.org/wiki/Lucy_Guo"
+    },
+    {
+      "id": "9fb4e9e4-1af7-4f05-a113-2e871f540c32",
+      "evidence": "https://en.wikipedia.org/wiki/Luis_von_Ahn"
+    },
+    {
+      "id": "d17a5067-1e0d-40df-bc80-08ab7b1e1483",
+      "evidence": "https://en.wikipedia.org/wiki/Mary_Barra"
+    },
+    {
+      "id": "deedf62d-3839-47e1-8cf3-37cec6779526",
+      "evidence": "https://en.wikipedia.org/wiki/Mike_Krieger"
+    },
+    {
+      "id": "2f28e647-4d21-48d7-ab6a-4ebac0733226",
+      "evidence": "https://en.wikipedia.org/wiki/Mustafa_Suleyman"
+    },
+    {
+      "id": "a809ffa5-fd6d-42f7-ab10-bed2fb0176b4",
+      "evidence": "https://en.wikipedia.org/wiki/Ola_K%C3%A4llenius"
+    },
+    {
+      "id": "062945ab-f1eb-4e11-8092-c18ea1d43554",
+      "evidence": "https://en.wikipedia.org/wiki/Padmasree_Warrior"
+    },
+    {
+      "id": "b2189589-d02d-48d2-acf1-ee896e08ff01",
+      "evidence": "https://en.wikipedia.org/wiki/Pat_Gelsinger"
+    },
+    {
+      "id": "4ba6baa6-bdc4-4bf5-98db-464dbe9de7be",
+      "evidence": "https://en.wikipedia.org/wiki/Sal_Khan"
+    },
+    {
+      "id": "3b9a1c4a-5b8b-41ca-94b5-5c486a1bd2a0",
+      "evidence": "https://en.wikipedia.org/wiki/Sheryl_Sandberg"
+    },
+    {
+      "id": "d8ed567a-1ecf-4b3f-9106-d870fdfcc734",
+      "evidence": "https://en.wikipedia.org/wiki/Shou_Zi_Chew"
+    },
+    {
+      "id": "985433f9-b1b0-4ec5-abea-540bb867fc1c",
+      "evidence": "https://en.wikipedia.org/wiki/Steve_Huffman"
+    },
+    {
+      "id": "aedf9e31-2d5d-45ee-86ae-b730a8614abe",
+      "evidence": "https://en.wikipedia.org/wiki/Stewart_Butterfield"
+    },
+    {
+      "id": "bbc6c71e-da64-4f98-9ddf-9527bd28cb91",
+      "evidence": "https://en.wikipedia.org/wiki/Susan_Wojcicki"
+    },
+    {
+      "id": "e536984e-281b-43a5-a7cc-e64f356cb012",
+      "evidence": "https://en.wikipedia.org/wiki/Ted_Sarandos"
+    },
+    {
+      "id": "e5635095-51e1-4edb-b98b-764ebcbf08e4",
+      "evidence": "https://en.wikipedia.org/wiki/Thomas_Kurian"
+    },
+    {
+      "id": "0ef74fa4-5153-45cc-b282-6d376dd2c9a8",
+      "evidence": "https://en.wikipedia.org/wiki/Urs_H%C3%B6lzle"
+    }
+  ],
+  "unmatchedRows": [
+    {
+      "id": "ff4637cd-972e-4a19-a71d-337f4397d930",
+      "entity_type": "company",
+      "name": "Antigravity"
+    },
+    {
+      "id": "f60e6b59-279f-47c6-80b4-5c32139edebd",
+      "entity_type": "company",
+      "name": "National Academy of Sciences"
+    },
+    {
+      "id": "7c6505b5-0b22-4f98-bcac-336c33677704",
+      "entity_type": "company",
+      "name": "Ramp"
+    },
+    {
+      "id": "21747a95-f95f-4e0e-866c-465aeb5b3077",
+      "entity_type": "company",
+      "name": "Rippling"
+    },
+    {
+      "id": "b8551fdf-3c0a-4c3f-9aa8-b362e5cbb61a",
+      "entity_type": "company",
+      "name": "Siemens"
+    },
+    {
+      "id": "af9f213d-f3ca-462a-a3da-3103098a31b2",
+      "entity_type": "event",
+      "name": "Cisco Live"
+    },
+    {
+      "id": "c9c69c5f-b735-4f03-a7bf-476982054573",
+      "entity_type": "event",
+      "name": "Databricks Data + AI Summit"
+    },
+    {
+      "id": "1f5bbc8c-4f96-4c09-a9b2-91b28991f8d5",
+      "entity_type": "event",
+      "name": "Figma Config"
+    },
+    {
+      "id": "125281cf-5a96-4d3b-a08f-9ce59e6f9d17",
+      "entity_type": "event",
+      "name": "Fortune Brainstorm Tech"
+    },
+    {
+      "id": "5d55440d-9c95-4c1c-b147-83575c403f1e",
+      "entity_type": "event",
+      "name": "GITEX Global"
+    },
+    {
+      "id": "adb088fe-63cc-4d30-9eab-e5234d9f2f36",
+      "entity_type": "event",
+      "name": "GitHub Universe"
+    },
+    {
+      "id": "05fd9ad0-b577-412f-a58e-b1c0780cda4f",
+      "entity_type": "event",
+      "name": "Lesbians Who Tech Summit"
+    },
+    {
+      "id": "a7507fa9-277a-42db-a29d-368480f6069b",
+      "entity_type": "event",
+      "name": "Meta Connect"
+    },
+    {
+      "id": "1b7114b8-9c85-4aef-9d88-e98f1b8bd208",
+      "entity_type": "event",
+      "name": "O'Reilly AI Conference"
+    },
+    {
+      "id": "677d623b-e0e0-437c-80ce-3dc602c4cd4a",
+      "entity_type": "event",
+      "name": "O'Reilly Software Architecture Conference"
+    },
+    {
+      "id": "4f38c0d1-9340-495c-a2c3-01eeb5278222",
+      "entity_type": "event",
+      "name": "Open Compute Project Global Summit"
+    },
+    {
+      "id": "ad383a3b-40a7-4aac-be2c-137d1f6fdc23",
+      "entity_type": "event",
+      "name": "Open Infrastructure Summit"
+    },
+    {
+      "id": "8be3ab7b-bf9f-406f-9f57-1b71e81edaa8",
+      "entity_type": "event",
+      "name": "Oracle CloudWorld"
+    },
+    {
+      "id": "e8f362c5-daf3-4c91-9322-b1ce1908a531",
+      "entity_type": "event",
+      "name": "Product Hunt Ship"
+    },
+    {
+      "id": "a80feeff-6d65-4603-904e-07372803a4f8",
+      "entity_type": "event",
+      "name": "Red Hat Summit"
+    },
+    {
+      "id": "424d5f97-cc9a-493c-90c8-eb4373f844d3",
+      "entity_type": "event",
+      "name": "RSA Conference"
+    },
+    {
+      "id": "29ab1224-34d2-45ef-a8e0-5b77604cc5f1",
+      "entity_type": "event",
+      "name": "RSA Conference Europe"
+    },
+    {
+      "id": "53053bfd-16c9-4a9e-be21-d554a8f603d1",
+      "entity_type": "speaker",
+      "name": "Alex Cooper"
+    },
+    {
+      "id": "0e243a59-c804-41d7-bb16-8108a7a61cdc",
+      "entity_type": "speaker",
+      "name": "Brian Armstrong"
+    },
+    {
+      "id": "af715a15-c9d0-494b-8d85-476bc623595e",
+      "entity_type": "speaker",
+      "name": "Brian Sozzi"
+    },
+    {
+      "id": "0077f4f1-0dee-48bb-8637-76c1a95e8edd",
+      "entity_type": "speaker",
+      "name": "Christian Klein"
+    },
+    {
+      "id": "42597ecb-7378-408a-999d-2332d0d4bc69",
+      "entity_type": "speaker",
+      "name": "Dan Fu"
+    },
+    {
+      "id": "2bb75925-173f-4241-add5-5b247544ca5a",
+      "entity_type": "speaker",
+      "name": "Evan Williams"
+    },
+    {
+      "id": "ee804f29-9d17-405c-aade-16e0ea69d944",
+      "entity_type": "speaker",
+      "name": "Hock Tan"
+    },
+    {
+      "id": "8f391b82-7b63-4230-8bb4-fff889ac8fd7",
+      "entity_type": "speaker",
+      "name": "Jim Farley"
+    },
+    {
+      "id": "718d77e5-07ed-4a88-ba52-6c79de4cc29e",
+      "entity_type": "speaker",
+      "name": "Jonathan Haidt"
+    },
+    {
+      "id": "bd3e9a69-4bf9-4103-9a94-6f5d9b3ebee0",
+      "entity_type": "speaker",
+      "name": "Kevin Scott"
+    },
+    {
+      "id": "1de46387-af37-43a7-a67b-90d86db81534",
+      "entity_type": "speaker",
+      "name": "Kunal Bansal"
+    },
+    {
+      "id": "718ccc67-65e3-4654-8d47-5eb6a17f51f7",
+      "entity_type": "speaker",
+      "name": "Lisa Jackson"
+    },
+    {
+      "id": "57976fd0-4689-408e-a8c2-2ff0e38bfa35",
+      "entity_type": "speaker",
+      "name": "Mary Meeker"
+    },
+    {
+      "id": "c19aa3a9-67d9-43f5-8429-09d72737a4e7",
+      "entity_type": "speaker",
+      "name": "Miles Wu"
+    },
+    {
+      "id": "03957fac-9885-4fa0-bf27-344a6116b839",
+      "entity_type": "speaker",
+      "name": "Nico Rosberg"
+    },
+    {
+      "id": "c0325d9e-7651-421d-951b-7d215e594822",
+      "entity_type": "speaker",
+      "name": "Paula Stone Williams"
+    },
+    {
+      "id": "10994de9-eb95-4730-b450-7824b39569b1",
+      "entity_type": "speaker",
+      "name": "Peter Beck"
+    },
+    {
+      "id": "4d217d24-3807-4e62-b7a4-5839b4788784",
+      "entity_type": "speaker",
+      "name": "Pichai Sundararajan"
+    },
+    {
+      "id": "9f6d5d1e-ff68-4d67-9a17-ac300c35e84a",
+      "entity_type": "speaker",
+      "name": "Sarah Longwell"
+    },
+    {
+      "id": "d074fb71-0d00-483f-901e-b1092e004beb",
+      "entity_type": "speaker",
+      "name": "Scott Guthrie"
+    },
+    {
+      "id": "5a9aefeb-e3e5-48ec-9874-e5660d7b64c6",
+      "entity_type": "speaker",
+      "name": "Tim Sweeney"
+    },
+    {
+      "id": "450eaad9-ec47-4062-9730-4af846e10dc3",
+      "entity_type": "speaker",
+      "name": "Tobi Lütke"
+    }
+  ]
+}

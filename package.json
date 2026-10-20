@@ -1,0 +1,48 @@
+{
+  "name": "techstage",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "TECHSTAGE — discovery platform for technology talks, panels, keynotes, and speaking appearances. Product shell built on the Polaris design language.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build",
+    "build:safe": "tsc -b && vite build --outDir /tmp/techstage-build --emptyOutDir",
+    "preview": "vite preview",
+    "typecheck": "tsc -b --noEmit",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:offline": "TECHSTAGE_BLOCK_NETWORK=true vitest run",
+    "propagation:dry-run": "node scripts/backfill-dry-run.mjs",
+    "assets:dry-run": "node scripts/assets/backfill.mjs --budget-usd 0",
+    "assets:seed": "vite-node scripts/assets/seed-catalog.ts --budget-usd 0",
+    "assets:seed:execute": "vite-node scripts/assets/seed-catalog.ts --execute --budget-usd 0",
+    "assets:import:free": "node scripts/assets/import-free-assets.mjs --execute",
+    "assets:stage": "node scripts/assets/backfill.mjs --stage --execute --budget-usd 0"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "2.93.3",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.469.0",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "react-router-dom": "^7.1.1",
+    "tailwind-merge": "^2.6.0",
+    "zod": "^3.24.1"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.0.0",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "@types/node": "^26.1.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "@vitejs/plugin-react": "^4.3.4",
+    "jsdom": "^26.1.0",
+    "sharp": "^0.35.3",
+    "tailwindcss": "^4.0.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.0.5",
+    "vitest": "^3.2.7"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "evidence": [
+    {
+      "id": "21747a95-f95f-4e0e-866c-465aeb5b3077",
+      "evidence": "https://en.wikipedia.org/wiki/Rippling_(company)"
+    },
+    {
+      "id": "5d55440d-9c95-4c1c-b147-83575c403f1e",
+      "evidence": "https://en.wikipedia.org/wiki/GITEX"
+    },
+    {
+      "id": "424d5f97-cc9a-493c-90c8-eb4373f844d3",
+      "evidence": "https://en.wikipedia.org/wiki/RSAC_Conference"
+    },
+    {
+      "id": "0e243a59-c804-41d7-bb16-8108a7a61cdc",
+      "evidence": "https://en.wikipedia.org/wiki/Brian_Armstrong_(businessman)"
+    },
+    {
+      "id": "2bb75925-173f-4241-add5-5b247544ca5a",
+      "evidence": "https://en.wikipedia.org/wiki/Evan_Williams_(Internet_entrepreneur)"
+    },
+    {
+      "id": "8f391b82-7b63-4230-8bb4-fff889ac8fd7",
+      "evidence": "https://en.wikipedia.org/wiki/Jim_Farley_(businessman)"
+    },
+    {
+      "id": "450eaad9-ec47-4062-9730-4af846e10dc3",
+      "evidence": "https://en.wikipedia.org/wiki/Tobias_L%C3%BCtke"
+    }
+  ],
+  "unmatchedRows": [
+    {
+      "entity_type": "company",
+      "id": "ff4637cd-972e-4a19-a71d-337f4397d930",
+      "name": "Antigravity"
+    },
+    {
+      "entity_type": "company",
+      "id": "f60e6b59-279f-47c6-80b4-5c32139edebd",
+      "name": "National Academy of Sciences"
+    },
+    {
+      "entity_type": "company",
+      "id": "7c6505b5-0b22-4f98-bcac-336c33677704",
+      "name": "Ramp"
+    },
+    {
+      "entity_type": "company",
+      "id": "b8551fdf-3c0a-4c3f-9aa8-b362e5cbb61a",
+      "name": "Siemens"
+    },
+    {
+      "entity_type": "event",
+      "id": "af9f213d-f3ca-462a-a3da-3103098a31b2",
+      "name": "Cisco Live"
+    },
+    {
+      "entity_type": "event",
+      "id": "c9c69c5f-b735-4f03-a7bf-476982054573",
+      "name": "Databricks Data + AI Summit"
+    },
+    {
+      "entity_type": "event",
+      "id": "1f5bbc8c-4f96-4c09-a9b2-91b28991f8d5",
+      "name": "Figma Config"
+    },
+    {
+      "entity_type": "event",
+      "id": "125281cf-5a96-4d3b-a08f-9ce59e6f9d17",
+      "name": "Fortune Brainstorm Tech"
+    },
+    {
+      "entity_type": "event",
+      "id": "adb088fe-63cc-4d30-9eab-e5234d9f2f36",
+      "name": "GitHub Universe"
+    },
+    {
+      "entity_type": "event",
+      "id": "05fd9ad0-b577-412f-a58e-b1c0780cda4f",
+      "name": "Lesbians Who Tech Summit"
+    },
+    {
+      "entity_type": "event",
+      "id": "a7507fa9-277a-42db-a29d-368480f6069b",
+      "name": "Meta Connect"
+    },
+    {
+      "entity_type": "event",
+      "id": "1b7114b8-9c85-4aef-9d88-e98f1b8bd208",
+      "name": "O'Reilly AI Conference"
+    },
+    {
+      "entity_type": "event",
+      "id": "677d623b-e0e0-437c-80ce-3dc602c4cd4a",
+      "name": "O'Reilly Software Architecture Conference"
+    },
+    {
+      "entity_type": "event",
+      "id": "4f38c0d1-9340-495c-a2c3-01eeb5278222",
+      "name": "Open Compute Project Global Summit"
+    },
+    {
+      "entity_type": "event",
+      "id": "ad383a3b-40a7-4aac-be2c-137d1f6fdc23",
+      "name": "Open Infrastructure Summit"
+    },
+    {
+      "entity_type": "event",
+      "id": "8be3ab7b-bf9f-406f-9f57-1b71e81edaa8",
+      "name": "Oracle CloudWorld"
+    },
+    {
+      "entity_type": "event",
+      "id": "e8f362c5-daf3-4c91-9322-b1ce1908a531",
+      "name": "Product Hunt Ship"
+    },
+    {
+      "entity_type": "event",
+      "id": "a80feeff-6d65-4603-904e-07372803a4f8",
+      "name": "Red Hat Summit"
+    },
+    {
+      "entity_type": "event",
+      "id": "29ab1224-34d2-45ef-a8e0-5b77604cc5f1",
+      "name": "RSA Conference Europe"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "53053bfd-16c9-4a9e-be21-d554a8f603d1",
+      "name": "Alex Cooper"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "af715a15-c9d0-494b-8d85-476bc623595e",
+      "name": "Brian Sozzi"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "0077f4f1-0dee-48bb-8637-76c1a95e8edd",
+      "name": "Christian Klein"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "42597ecb-7378-408a-999d-2332d0d4bc69",
+      "name": "Dan Fu"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "ee804f29-9d17-405c-aade-16e0ea69d944",
+      "name": "Hock Tan"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "718d77e5-07ed-4a88-ba52-6c79de4cc29e",
+      "name": "Jonathan Haidt"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "bd3e9a69-4bf9-4103-9a94-6f5d9b3ebee0",
+      "name": "Kevin Scott"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "1de46387-af37-43a7-a67b-90d86db81534",
+      "name": "Kunal Bansal"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "718ccc67-65e3-4654-8d47-5eb6a17f51f7",
+      "name": "Lisa Jackson"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "57976fd0-4689-408e-a8c2-2ff0e38bfa35",
+      "name": "Mary Meeker"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "c19aa3a9-67d9-43f5-8429-09d72737a4e7",
+      "name": "Miles Wu"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "03957fac-9885-4fa0-bf27-344a6116b839",
+      "name": "Nico Rosberg"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "c0325d9e-7651-421d-951b-7d215e594822",
+      "name": "Paula Stone Williams"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "10994de9-eb95-4730-b450-7824b39569b1",
+      "name": "Peter Beck"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "4d217d24-3807-4e62-b7a4-5839b4788784",
+      "name": "Pichai Sundararajan"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "9f6d5d1e-ff68-4d67-9a17-ac300c35e84a",
+      "name": "Sarah Longwell"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "d074fb71-0d00-483f-901e-b1092e004beb",
+      "name": "Scott Guthrie"
+    },
+    {
+      "entity_type": "speaker",
+      "id": "5a9aefeb-e3e5-48ec-9874-e5660d7b64c6",
+      "name": "Tim Sweeney"
+    }
+  ]
+}

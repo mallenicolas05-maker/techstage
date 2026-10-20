@@ -1,0 +1,7 @@
+name = "techstage"
+compatibility_date = "2026-07-13"
+pages_build_output_dir = "dist"
+
+# Deployment is intentionally not configured or executed by this change.
+# Create the Cloudflare Pages project and bind R2 only during activation.
+

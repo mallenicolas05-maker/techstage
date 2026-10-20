@@ -1,0 +1,4 @@
+update public.companies set description='Nintendo is japanese video game company.' where id='e0e2fce6-023c-4e09-88b0-5970914ae60e'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Pinterest is american social media platform.' where id='843f9c57-7930-409f-91f8-98c79aba5ea6'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Snyk is cybersecurity company.' where id='d1764651-dd2d-4ebd-92ba-88f8792fa3c4'::uuid and status='published' and nullif(trim(description),'') is null;
+update public.companies set description='Spotify is swedish audio streaming service.' where id='45231bc8-176d-4a6b-8f28-72ac8cde172c'::uuid and status='published' and nullif(trim(description),'') is null;
